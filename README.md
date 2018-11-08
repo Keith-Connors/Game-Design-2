@@ -1,1 +1,5 @@
-# Game Design 2
+# GeoED - Geography Education Game
+
+
+## Credit
+### Keith Connors
