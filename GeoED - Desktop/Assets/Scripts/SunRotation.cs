@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SunRotation : MonoBehaviour
 {
+    //This is only a temporary class and is not meant to represent final faux lighting for the continents.
+
     public float angle;
-    public GameObject pivotPos;
-	// Update is called once per frame
 	void Update ()
     {
-        transform.RotateAround(Vector3.zero, Vector3.up , angle);
+        transform.RotateAround(Vector3.zero, Vector3.up , angle * Time.deltaTime);
     }
 }
