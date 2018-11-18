@@ -26,8 +26,8 @@ GameObject:
   - component: {fileID: 114026906012049868}
   - component: {fileID: 64596388939681668}
   m_Layer: 0
-  m_Name: Continent_SouthAmerica
-  m_TagString: Continent
+  m_Name: _Continent:South-America
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4902691967123218}
   m_Layer: 0
   m_Name: South America
-  m_TagString: Continent
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1092813850120104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -17.161083, y: 19.246346, z: -25.334583}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4902691967123218}
@@ -66,14 +66,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1290704475851368}
-  m_LocalRotation: {x: -0.49999997, y: -0, z: -0, w: 0.86602545}
-  m_LocalPosition: {x: 14.41, y: 6.1772485, z: 15.76684}
-  m_LocalScale: {x: 0.4924933, y: 0.4924933, z: 0.4924933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4472605, y: -14.289314, z: 21.813808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4329653792321030}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -60.000004, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23033795837998172
 MeshRenderer:
   m_ObjectHideFlags: 1
