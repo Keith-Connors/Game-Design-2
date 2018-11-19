@@ -26,8 +26,8 @@ GameObject:
   - component: {fileID: 114026906012049868}
   - component: {fileID: 64596388939681668}
   m_Layer: 0
-  m_Name: _Continent:South-America
-  m_TagString: Untagged
+  m_Name: SouthAmerica
+  m_TagString: SouthAmerica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4902691967123218}
   m_Layer: 0
   m_Name: South America
-  m_TagString: Untagged
+  m_TagString: SouthAmerica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
