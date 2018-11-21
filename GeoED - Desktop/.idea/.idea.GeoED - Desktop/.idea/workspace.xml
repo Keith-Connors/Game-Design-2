@@ -12,20 +12,23 @@
     <session id="-437115736">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.32" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1160" />
+          <entry key="cs" value="1620" />
+          <entry key="shader" value="1120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1160" />
+          <entry key="C#" value="1620" />
+          <entry key="ShaderLab" value="1120" />
         </counts>
       </usages-collector>
     </session>
@@ -35,15 +38,46 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseClick_MAP.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="459">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
-                <marker date="1542796388673" expanded="false" signature="6:131" ph="..." />
-                <marker date="1542796388673" expanded="true" signature="176:601" ph="{...}" />
-                <marker date="1542796388673" expanded="true" signature="237:526" ph="{...}" />
-                <marker date="1542796388673" expanded="true" signature="386:520" ph="{...}" />
-                <marker date="1542796388673" expanded="true" signature="435:510" ph="{...}" />
-                <marker date="1542796388673" expanded="true" signature="563:599" ph="{...}" />
+                <marker date="1542840308560" expanded="false" signature="6:131" ph="..." />
+                <marker date="1542840308560" expanded="true" signature="176:2126" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="297:552" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="579:1307" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="627:918" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="976:1301" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1133:1291" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1190:1277" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1344:2124" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1455:1516" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1555:1608" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1649:1704" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1751:1812" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1856:1914" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="1955:2010" ph="{...}" />
+                <marker date="1542840308560" expanded="true" signature="2057:2118" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Shader_Outline.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+              <folding>
+                <marker date="1542838862257" expanded="true" signature="38:1422" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="53:268" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="281:715" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="735:1420" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="774:1006" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="824:994" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="1045:1417" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="1103:1173" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="1254:1301" ph="{...}" />
+                <marker date="1542838862257" expanded="true" signature="1351:1410" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,11 +89,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Shader_Outline.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseClick_MAP.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Shaders/Shader_Outline.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseClick_MAP.cs" />
       </list>
     </option>
@@ -82,13 +118,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,11 +173,12 @@
       <workItem from="1542629263404" duration="318000" />
       <workItem from="1542629697975" duration="3085000" />
       <workItem from="1542795376953" duration="1319000" />
+      <workItem from="1542836756128" duration="3658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4722000" />
+    <option name="totallyTimeSpent" value="8380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -156,7 +193,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,17 +238,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Shader_Outline.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <marker date="1542838862257" expanded="true" signature="38:1422" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="53:268" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="281:715" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="735:1420" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="774:1006" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="824:994" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="1045:1417" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="1103:1173" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="1254:1301" ph="{...}" />
+            <marker date="1542838862257" expanded="true" signature="1351:1410" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MouseClick_MAP.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="459">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
-            <marker date="1542796388673" expanded="false" signature="6:131" ph="..." />
-            <marker date="1542796388673" expanded="true" signature="176:601" ph="{...}" />
-            <marker date="1542796388673" expanded="true" signature="237:526" ph="{...}" />
-            <marker date="1542796388673" expanded="true" signature="386:520" ph="{...}" />
-            <marker date="1542796388673" expanded="true" signature="435:510" ph="{...}" />
-            <marker date="1542796388673" expanded="true" signature="563:599" ph="{...}" />
+            <marker date="1542840308560" expanded="false" signature="6:131" ph="..." />
+            <marker date="1542840308560" expanded="true" signature="176:2126" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="297:552" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="579:1307" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="627:918" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="976:1301" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1133:1291" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1190:1277" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1344:2124" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1455:1516" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1555:1608" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1649:1704" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1751:1812" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1856:1914" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="1955:2010" ph="{...}" />
+            <marker date="1542840308560" expanded="true" signature="2057:2118" ph="{...}" />
           </folding>
         </state>
       </provider>

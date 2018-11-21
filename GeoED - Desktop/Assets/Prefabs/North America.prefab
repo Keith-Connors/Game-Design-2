@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 114653327054679778}
   - component: {fileID: 64097771654442490}
   m_Layer: 0
-  m_Name: _Continent:North-America
+  m_Name: North America
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
