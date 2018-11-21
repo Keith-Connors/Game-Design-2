@@ -5,40 +5,24 @@ using UnityEngine;
 
 public class MouseClick_MAP : MonoBehaviour
 {
-    private Canvas _SouthAmerica;
-
-    private void Start()
-    {
-        //SouthAmerica = GetComponent<Canvas>();
-        _SouthAmerica.enabled = false;
-    }
+    public Canvas SouthAmerica;
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            
-        }
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out hit, 100.0f))
+        if (Physics.Raycast(ray, out hit, 100f))
+        {
+            if (hit.transform != null)
             {
-                if (hit.transform != null)
-                {
-                    //Do stuff
-                }
+                obj(hit.transform.gameObject);
             }
         }
     }
 
-    private void CheckObj(GameObject go)
+    private void obj(GameObject go)
     {
-        if (go.name == "SouthAmerica" || go.tag == "SouthAmerica")
-        {
-            _SouthAmerica.enabled = true;
-        }
+        print(go.name);
     }
 }
