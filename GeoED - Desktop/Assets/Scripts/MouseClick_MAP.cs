@@ -6,9 +6,11 @@ using UnityEngine;
 public class MouseClick_MAP : MonoBehaviour
 {
     public Canvas SouthAmerica, NorthAmerica, Europe, Asia, Australia, Africa, Construction;
-
+    private UserSettings m_settings;
     private void Start()
     {
+
+//        m_settings.GetComponent<UserSettings>();
         SouthAmerica.enabled = false;
         NorthAmerica.enabled = false;
         Europe.enabled = false;
