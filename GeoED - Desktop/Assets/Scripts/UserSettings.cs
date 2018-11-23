@@ -50,5 +50,22 @@ public class UserSettings : MonoBehaviour
 		{
 			PlayerSettings.enabled = false;
 		}
+
+		if (Input.GetKey(KeyCode.P)) 
+		{
+			m_colorBlind.Type = 0; //Normal
+		}
+		if (Input.GetKey(KeyCode.O))
+		{
+			m_colorBlind.Type = 1; //Protanopia
+		}
+		if (Input.GetKey(KeyCode.I))
+		{
+			m_colorBlind.Type = 2; //Deuteranopia
+		}
+		if (Input.GetKey(KeyCode.U))
+		{
+			m_colorBlind.Type = 3; //Tritanopia
+		}
 	}
 }
