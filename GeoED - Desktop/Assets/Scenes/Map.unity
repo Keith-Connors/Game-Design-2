@@ -3749,10 +3749,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 'Welcome to South America.
 
-    This UI will give the user information regarding South America, including facts
-    and asking the user questions.
-
-    This is only  dummy text for testing.'
+    South America is made up of twelve (12) countries, with a population of over 385
+    Million people. The largest of these countries is Brazil. The smallest country
+    is Suriname. The most common language spoken is Spanish.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3820,12 +3819,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1115904179}
-    characterCount: 174
+    characterCount: 242
     spriteCount: 0
-    spaceCount: 28
-    wordCount: 28
+    spaceCount: 39
+    wordCount: 40
     linkCount: 0
-    lineCount: 5
+    lineCount: 7
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
