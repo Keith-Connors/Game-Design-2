@@ -10,10 +10,28 @@ public class UserSettings : MonoBehaviour
 	private MouseClick_MAP m_CanvasRef;
 	public Canvas PlayerSettings;
 	public SpotLight sunRotation;
-	
 
+
+	public void loadNormalVision() //Normal
+	{
+		m_colorBlind.Type = 0;
+	}
+
+	public void loadProtanopiaVision() //Protanopia
+	{
+		m_colorBlind.Type = 1;
+	}
+
+	public void loadDeuteranopiaVision() //Deuteranopia
+	{
+		m_colorBlind.Type = 2;
+	}
+
+	public void loadTritanopiaVision() //Tritanopia
+	{
+		m_colorBlind.Type = 3;
+	}
 	
-	// Use this for initialization
 	void Start ()
 	{
 		PlayerSettings.enabled = false;
@@ -45,7 +63,7 @@ public class UserSettings : MonoBehaviour
 			}
 			PlayerSettings.enabled = true;
 		}
-
+		
 		if (Input.GetKey(KeyCode.Escape))
 		{
 			PlayerSettings.enabled = false;
