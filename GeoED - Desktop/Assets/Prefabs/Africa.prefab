@@ -26,8 +26,8 @@ GameObject:
   - component: {fileID: 114372686754129498}
   - component: {fileID: 64715313957482884}
   m_Layer: 0
-  m_Name: _Continent:AFRICA
-  m_TagString: Untagged
+  m_Name: Africa
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4420652085689520}
   m_Layer: 0
   m_Name: Africa
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

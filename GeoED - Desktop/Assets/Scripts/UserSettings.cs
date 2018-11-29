@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Experimental.GlobalIllumination;
 using Wilberforce;
 
@@ -45,7 +46,7 @@ public class UserSettings : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.Tab))
 		{
-			if (m_CanvasRef.Africa.enabled 
+			/*if (m_CanvasRef.Africa.enabled 
 			    || m_CanvasRef.NorthAmerica.enabled 
 			    || m_CanvasRef.SouthAmerica.enabled 
 			    || m_CanvasRef.Europe.enabled
@@ -60,8 +61,12 @@ public class UserSettings : MonoBehaviour
 					m_CanvasRef.Asia.enabled = false;
 					m_CanvasRef.Australia.enabled = false;
 					m_CanvasRef.Construction.enabled = false;
-			}
+			}*/
 			PlayerSettings.enabled = true;
+			if (!EventSystem.current.IsPointerOverGameObject())
+			{
+				
+			}
 		}
 		
 		if (Input.GetKey(KeyCode.Escape))
