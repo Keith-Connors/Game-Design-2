@@ -150,6 +150,7 @@
           <e p="CameraMovement.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MouseClick_MAP.cs" t="Include" />
+          <e p="MouseOver.cs" t="Include" />
           <e p="SunRotation.cs" t="Include" />
           <e p="UserSettings.cs" t="Include" />
         </e>

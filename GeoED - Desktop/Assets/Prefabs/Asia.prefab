@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4322891256407088}
+  - component: {fileID: 114252888600978306}
   - component: {fileID: 114100794880380668}
   - component: {fileID: 114225909479503362}
   - component: {fileID: 23334060499039370}
@@ -27,7 +28,7 @@ GameObject:
   - component: {fileID: 64156727334548596}
   m_Layer: 0
   m_Name: Asia
-  m_TagString: Untagged
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -40,6 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4129217899431534}
+  - component: {fileID: 114106045472492886}
   - component: {fileID: 114594557508248666}
   - component: {fileID: 114749530386242664}
   - component: {fileID: 23498773025851000}
@@ -47,8 +49,8 @@ GameObject:
   - component: {fileID: 114155329650883764}
   - component: {fileID: 64143797115615832}
   m_Layer: 0
-  m_Name: Japan:Loswer_Island
-  m_TagString: Untagged
+  m_Name: Japan
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -61,6 +63,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4230008181943058}
+  - component: {fileID: 114625024318253708}
   - component: {fileID: 114830007661510808}
   - component: {fileID: 114704565012841984}
   - component: {fileID: 23539273339515760}
@@ -68,8 +71,8 @@ GameObject:
   - component: {fileID: 114185093865826944}
   - component: {fileID: 64247258587388552}
   m_Layer: 0
-  m_Name: Japan:Centre_Island
-  m_TagString: Untagged
+  m_Name: Japan
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -84,7 +87,7 @@ GameObject:
   - component: {fileID: 4968103228515934}
   m_Layer: 0
   m_Name: Asia
-  m_TagString: Untagged
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4458982564539796}
+  - component: {fileID: 114855756167319440}
   - component: {fileID: 114216839353939084}
   - component: {fileID: 114634222635471970}
   - component: {fileID: 23941983097468342}
@@ -104,8 +108,8 @@ GameObject:
   - component: {fileID: 114451580285511664}
   - component: {fileID: 64661571854172846}
   m_Layer: 0
-  m_Name: Japan:Top_Island
-  m_TagString: Untagged
+  m_Name: Japan
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -579,6 +583,17 @@ MonoBehaviour:
   polyEditMode: 0
   flipNormals: 0
   isOnGrid: 1
+--- !u!114 &114106045472492886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321656160685564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114155329650883764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4228,6 +4243,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114252888600978306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171474137821546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114305373980914836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16515,6 +16541,17 @@ MonoBehaviour:
   polyEditMode: 0
   flipNormals: 0
   isOnGrid: 1
+--- !u!114 &114625024318253708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452542048665952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114634222635471970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16606,3 +16643,14 @@ MonoBehaviour:
   polyEditMode: 0
   flipNormals: 0
   isOnGrid: 1
+--- !u!114 &114855756167319440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896490817320606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

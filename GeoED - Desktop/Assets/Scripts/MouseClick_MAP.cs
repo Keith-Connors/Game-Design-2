@@ -7,6 +7,7 @@ public class MouseClick_MAP : MonoBehaviour
 {
     public Canvas SouthAmerica, NorthAmerica, Europe, Asia, Australia, Africa, Construction;
     private UserSettings m_settings;
+    
     private void Start()
     {
 
@@ -32,8 +33,7 @@ public class MouseClick_MAP : MonoBehaviour
             Africa.enabled = false;
             Construction.enabled = false;
         }
-        
-        
+                
         if(Input.GetMouseButtonDown(0))
         {
         RaycastHit hit;

@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4374664391363166}
+  - component: {fileID: 114571427698498826}
   - component: {fileID: 114855465882262668}
   - component: {fileID: 114234992784042362}
   - component: {fileID: 23855245104658798}
@@ -27,7 +28,7 @@ GameObject:
   - component: {fileID: 64761355497357010}
   m_Layer: 0
   m_Name: North-America
-  m_TagString: Untagged
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -40,6 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4567250267965080}
+  - component: {fileID: 114921143225091182}
   - component: {fileID: 114684284935756314}
   - component: {fileID: 114061569014336586}
   - component: {fileID: 23428145514865928}
@@ -48,7 +50,7 @@ GameObject:
   - component: {fileID: 64097771654442490}
   m_Layer: 0
   m_Name: North America
-  m_TagString: Untagged
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -63,7 +65,7 @@ GameObject:
   - component: {fileID: 4048598709181320}
   m_Layer: 0
   m_Name: North America
-  m_TagString: Untagged
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5064,6 +5066,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114571427698498826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043874961545574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114653327054679778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15605,3 +15618,14 @@ MonoBehaviour:
   polyEditMode: 0
   flipNormals: 0
   isOnGrid: 1
+--- !u!114 &114921143225091182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1264098252268658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

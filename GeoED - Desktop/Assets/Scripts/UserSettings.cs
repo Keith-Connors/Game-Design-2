@@ -54,7 +54,7 @@ public class UserSettings : MonoBehaviour
 			    || m_CanvasRef.Australia.enabled
 			    || m_CanvasRef.Construction.enabled)
 			{
-				m_CanvasRef.Africa.enabled = false;
+					m_CanvasRef.Africa.enabled = false;
 					m_CanvasRef.NorthAmerica.enabled = false; 
 					m_CanvasRef.SouthAmerica.enabled  = false;
 					m_CanvasRef.Europe.enabled = false;
@@ -63,10 +63,13 @@ public class UserSettings : MonoBehaviour
 					m_CanvasRef.Construction.enabled = false;
 			}*/
 			PlayerSettings.enabled = true;
-			if (!EventSystem.current.IsPointerOverGameObject())
-			{
-				
-			}
+			m_CanvasRef.Africa.enabled = false;
+			m_CanvasRef.NorthAmerica.enabled = false; 
+			m_CanvasRef.SouthAmerica.enabled  = false;
+			m_CanvasRef.Europe.enabled = false;
+			m_CanvasRef.Asia.enabled = false;
+			m_CanvasRef.Australia.enabled = false;
+			m_CanvasRef.Construction.enabled = false;
 		}
 		
 		if (Input.GetKey(KeyCode.Escape))
