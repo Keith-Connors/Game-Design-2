@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4329653792321030}
+  - component: {fileID: 114644790041063468}
   - component: {fileID: 114236718222259526}
   - component: {fileID: 114731499435481310}
   - component: {fileID: 23033795837998172}
@@ -26,7 +27,7 @@ GameObject:
   - component: {fileID: 114026906012049868}
   - component: {fileID: 64596388939681668}
   m_Layer: 0
-  m_Name: SouthAmerica
+  m_Name: South America
   m_TagString: SouthAmerica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5500,6 +5501,17 @@ MonoBehaviour:
   polyEditMode: 0
   flipNormals: 0
   isOnGrid: 1
+--- !u!114 &114644790041063468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092813850120104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114731499435481310
 MonoBehaviour:
   m_ObjectHideFlags: 1

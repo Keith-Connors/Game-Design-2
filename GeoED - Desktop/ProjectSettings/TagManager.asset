@@ -8,6 +8,9 @@ TagManager:
   - NorthAmerica
   - Asia
   - Europe
+  - Australia
+  - Africa
+  - Construction
   layers:
   - Default
   - TransparentFX

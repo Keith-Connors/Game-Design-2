@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4065616022819654}
+  - component: {fileID: 114848789515651554}
   - component: {fileID: 114967321231254192}
   - component: {fileID: 114173296637676834}
   - component: {fileID: 23794298580288478}
@@ -26,8 +27,8 @@ GameObject:
   - component: {fileID: 114554267800865520}
   - component: {fileID: 64604562822466038}
   m_Layer: 0
-  m_Name: _Continents:Australia_NZ
-  m_TagString: Untagged
+  m_Name: New Zealand
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -40,6 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4492693501253132}
+  - component: {fileID: 114829582271889288}
   - component: {fileID: 114385581614402000}
   - component: {fileID: 114929359418964916}
   - component: {fileID: 23983556680179934}
@@ -47,8 +49,8 @@ GameObject:
   - component: {fileID: 114273500652480194}
   - component: {fileID: 64095731793462046}
   m_Layer: 0
-  m_Name: _Continent:Australia
-  m_TagString: Untagged
+  m_Name: Australia
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -63,7 +65,7 @@ GameObject:
   - component: {fileID: 4325820372601822}
   m_Layer: 0
   m_Name: Australia
-  m_TagString: Untagged
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,6 +78,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4655842974226026}
+  - component: {fileID: 114951320207006812}
   - component: {fileID: 114762641441060700}
   - component: {fileID: 114804786421650996}
   - component: {fileID: 23244488481669876}
@@ -83,8 +86,8 @@ GameObject:
   - component: {fileID: 114059128715030842}
   - component: {fileID: 64668108388213274}
   m_Layer: 0
-  m_Name: _Continents:Australia_NZ
-  m_TagString: Untagged
+  m_Name: New Zealand
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -4804,6 +4807,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114829582271889288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1296899176151124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114848789515651554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011641906425580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114929359418964916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4816,6 +4841,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114951320207006812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559829317266972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114967321231254192
 MonoBehaviour:
   m_ObjectHideFlags: 1

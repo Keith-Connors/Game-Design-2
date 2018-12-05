@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4535031097891206}
+  - component: {fileID: 114400991777655392}
   - component: {fileID: 114909274571448048}
   - component: {fileID: 114247306095386624}
   - component: {fileID: 23753519723473740}
@@ -26,8 +27,8 @@ GameObject:
   - component: {fileID: 114372686754129498}
   - component: {fileID: 64715313957482884}
   m_Layer: 0
-  m_Name: _Continent:AFRICA
-  m_TagString: Untagged
+  m_Name: Africa
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -42,7 +43,7 @@ GameObject:
   - component: {fileID: 4420652085689520}
   m_Layer: 0
   m_Name: Africa
-  m_TagString: Untagged
+  m_TagString: Africa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4051,6 +4052,17 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114400991777655392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554163345494768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e578aadd1838cd24c84c3a50738a26b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114909274571448048
 MonoBehaviour:
   m_ObjectHideFlags: 1

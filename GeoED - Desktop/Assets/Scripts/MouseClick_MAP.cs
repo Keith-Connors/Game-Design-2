@@ -5,40 +5,87 @@ using UnityEngine;
 
 public class MouseClick_MAP : MonoBehaviour
 {
-    private Canvas _SouthAmerica;
-
+    public Canvas SouthAmerica, NorthAmerica, Europe, Asia, Australia, Africa, Construction;
+    private UserSettings m_settings;
+    
     private void Start()
     {
-        //SouthAmerica = GetComponent<Canvas>();
-        _SouthAmerica.enabled = false;
+
+//        m_settings.GetComponent<UserSettings>();
+        SouthAmerica.enabled = false;
+        NorthAmerica.enabled = false;
+        Europe.enabled = false;
+        Asia.enabled = false;
+        Australia.enabled = false;
+        Africa.enabled = false;
+        Construction.enabled = false;
     }
 
     private void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            
+            SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            Asia.enabled = false;
+            Australia.enabled = false;
+            Africa.enabled = false;
+            Construction.enabled = false;
         }
-        if (Input.GetMouseButtonDown(0))
+                
+        if(Input.GetMouseButtonDown(0))
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out hit, 100.0f))
+            if (Physics.Raycast(ray, out hit, 100f))
             {
                 if (hit.transform != null)
                 {
-                    //Do stuff
+                    obj(hit.transform.gameObject);
                 }
             }
         }
     }
 
-    private void CheckObj(GameObject go)
+    private void obj(GameObject go)
     {
-        if (go.name == "SouthAmerica" || go.tag == "SouthAmerica")
+        print("User has clicked on continent: "+go.name);
+        
+        if (go.tag == "SouthAmerica")
         {
-            _SouthAmerica.enabled = true;
+            SouthAmerica.enabled = true;
+        }
+        
+        if (go.tag == "Asia")
+        {
+            Asia.enabled = true;
+        }
+        
+        if (go.tag == "Europe")
+        {
+            Europe.enabled = true;
+        }
+        
+        if (go.tag == "NorthAmerica")
+        {
+            NorthAmerica.enabled = true;
+        }
+        
+        if (go.tag == "Australia")
+        {
+            Australia.enabled = true;
+        }
+        
+        if (go.tag == "Africa")
+        {
+            Africa.enabled = true;
+        }
+        
+        if (go.tag == "Construction")
+        {
+            Construction.enabled = true;
         }
     }
 }
