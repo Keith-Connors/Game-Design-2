@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour {
+public class ChangeScene : MonoBehaviour {
 
-    public void ChangeSceneToMAP()
+    public void LoadMainMenu()
     {
         SceneManager.LoadScene(0);
     }
 
-    void exitGame()
+    public void LoadMapScene()
     {
-        
+        SceneManager.LoadScene(1);
     }
 }

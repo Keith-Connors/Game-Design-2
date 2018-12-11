@@ -532,7 +532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1016144902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d5d492ddb2fd4e4d87a6a5ec5c64013, type: 3}
+  m_Script: {fileID: 11500000, guid: a37f6f3eb79b59d458569a3dd3051b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1016144904
@@ -768,7 +768,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1016144903}
-        m_MethodName: ChangeSceneToMAP
+        m_MethodName: LoadMapScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
