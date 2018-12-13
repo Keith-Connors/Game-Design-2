@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MouseClick_MAP : MonoBehaviour
 {
     public Canvas SouthAmerica, NorthAmerica, Europe, Asia, Australia, Africa, Construction;
+    public bool mapEnabled = true;
     private UserSettings m_settings;
     
     private void Start()
@@ -32,6 +34,7 @@ public class MouseClick_MAP : MonoBehaviour
             Australia.enabled = false;
             Africa.enabled = false;
             Construction.enabled = false;
+            mapEnabled = true;
         }
                 
         if(Input.GetMouseButtonDown(0))
@@ -53,39 +56,47 @@ public class MouseClick_MAP : MonoBehaviour
     {
         print("User has clicked on continent: "+go.name);
         
-        if (go.tag == "SouthAmerica")
+        if (go.tag == "SouthAmerica" && mapEnabled == true)
         {
             SouthAmerica.enabled = true;
+            mapEnabled = false;
         }
         
-        if (go.tag == "Asia")
+        if (go.tag == "Asia" && mapEnabled == true)
         {
             Asia.enabled = true;
+            mapEnabled = false;
         }
         
-        if (go.tag == "Europe")
+        if (go.tag == "Europe" && mapEnabled == true)
         {
             Europe.enabled = true;
+            mapEnabled = false;
         }
-        
-        if (go.tag == "NorthAmerica")
+
+        if (go.tag == "NorthAmerica" && mapEnabled == true) 
         {
             NorthAmerica.enabled = true;
+            mapEnabled = false;
         }
         
-        if (go.tag == "Australia")
+        if (go.tag == "Australia" && mapEnabled == true)
         {
             Australia.enabled = true;
+            mapEnabled = false;
         }
         
-        if (go.tag == "Africa")
+        if (go.tag == "Africa" && mapEnabled == true)
         {
             Africa.enabled = true;
+            mapEnabled = false;
+            
         }
         
-        if (go.tag == "Construction")
+        if (go.tag == "Construction" && mapEnabled == true)
         {
             Construction.enabled = true;
+            mapEnabled = false;
         }
     }
 }
