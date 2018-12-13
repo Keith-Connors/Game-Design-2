@@ -6,7 +6,24 @@ using UnityEngine.EventSystems;
 
 public class MouseClick_MAP : MonoBehaviour
 {
+    [Header("Continent Canvas")]
     public Canvas SouthAmerica, NorthAmerica, Europe, Asia, Australia, Africa, Construction;
+
+    [Header("Information Panel")]
+    public GameObject  //Panels for information.
+        ArgentinaInfo,
+        BoliviaInfo,
+        BrazilInfo,
+        ChileInfo,
+        ColombiaInfo,
+        EcuadorInfo,
+        GuyanaInfo,
+        ParaguayInfo,
+        PeruInfo,
+        SurinameInfo,
+        UruguayInfo,
+        VenezuelaInfo;
+    
     public bool mapEnabled = true;
     private UserSettings m_settings;
     
@@ -21,6 +38,7 @@ public class MouseClick_MAP : MonoBehaviour
         Australia.enabled = false;
         Africa.enabled = false;
         Construction.enabled = false;
+        
     }
 
     private void Update()
