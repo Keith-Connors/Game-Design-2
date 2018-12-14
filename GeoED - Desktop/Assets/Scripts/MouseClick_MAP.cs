@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class MouseClick_MAP : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class MouseClick_MAP : MonoBehaviour
 
     [Header("Information Panel")]
     public GameObject  //Panels for information.
+        ContinentInfo,
         ArgentinaInfo,
         BoliviaInfo,
         BrazilInfo,
@@ -23,7 +25,20 @@ public class MouseClick_MAP : MonoBehaviour
         SurinameInfo,
         UruguayInfo,
         VenezuelaInfo;
-    
+    [Header("Buttons")]
+    public Button ArgentinaInfo1,
+        BoliviaInfo1,
+        BrazilInfo1,
+        ChileInfo1,
+        ColombiaInfo1,
+        EcuadorInfo1,
+        GuyanaInfo1,
+        ParaguayInfo1,
+        PeruInfo1,
+        SurinameInfo1,
+        UruguayInfo1,
+        VenezuelaInfo1;
+
     public bool mapEnabled = true;
     private UserSettings m_settings;
     
@@ -38,7 +53,20 @@ public class MouseClick_MAP : MonoBehaviour
         Australia.enabled = false;
         Africa.enabled = false;
         Construction.enabled = false;
-        
+
+        ArgentinaInfo.active = false;
+        BoliviaInfo.active = false;
+        BrazilInfo.active = false;
+        ChileInfo.active = false;
+        ColombiaInfo.active = false;
+        EcuadorInfo.active = false;
+        GuyanaInfo.active = false;
+        ParaguayInfo.active = false;
+        PeruInfo.active = false;
+        SurinameInfo.active = false;
+        UruguayInfo.active = false;
+        VenezuelaInfo.active = false;
+
     }
 
     private void Update()
@@ -52,10 +80,83 @@ public class MouseClick_MAP : MonoBehaviour
             Australia.enabled = false;
             Africa.enabled = false;
             Construction.enabled = false;
+
             mapEnabled = true;
         }
-                
-        if(Input.GetMouseButtonDown(0))
+
+        if(SouthAmerica.enabled)
+        {
+            //SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            Asia.enabled = false;
+            Australia.enabled = false;
+            Africa.enabled = false;
+            Construction.enabled = false;
+        }
+
+        if (NorthAmerica.enabled)
+        {
+            SouthAmerica.enabled = false;
+            //NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            Asia.enabled = false;
+            Australia.enabled = false;
+            Africa.enabled = false;
+            Construction.enabled = false;
+        }
+        if (Europe.enabled)
+        {
+            SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            //Europe.enabled = false;
+            Asia.enabled = false;
+            Australia.enabled = false;
+            Africa.enabled = false;
+            Construction.enabled = false;
+        }
+        if (Asia.enabled)
+        {
+            SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            //Asia.enabled = false;
+            Australia.enabled = false;
+            Africa.enabled = false;
+            Construction.enabled = false;
+        }
+        if (Australia.enabled)
+        {
+            SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            Asia.enabled = false;
+            //Australia.enabled = false;
+            Africa.enabled = false;
+            Construction.enabled = false;
+        }
+        if (Africa.enabled)
+        {
+            SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            Asia.enabled = false;
+            Australia.enabled = false;
+           // Africa.enabled = false;
+            Construction.enabled = false;
+        }
+        if (Construction.enabled)
+        {
+            SouthAmerica.enabled = false;
+            NorthAmerica.enabled = false;
+            Europe.enabled = false;
+            Asia.enabled = false;
+            Australia.enabled = false;
+            Africa.enabled = false;
+            //Construction.enabled = false;
+        }
+
+        if (Input.GetMouseButtonDown(0))
         {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
