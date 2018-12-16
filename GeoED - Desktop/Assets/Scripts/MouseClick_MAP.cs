@@ -71,6 +71,8 @@ public class MouseClick_MAP : MonoBehaviour
 
     private void Update()
     {
+
+        
         if (Input.GetKey(KeyCode.Escape))
         {
             SouthAmerica.enabled = false;
@@ -83,6 +85,8 @@ public class MouseClick_MAP : MonoBehaviour
 
             mapEnabled = true;
         }
+
+
 
         if(SouthAmerica.enabled)
         {

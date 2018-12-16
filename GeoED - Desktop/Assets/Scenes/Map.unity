@@ -170,12 +170,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Colombia
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Colombia\nThe official name of Colombia is the Republic of Colombia.\r\n\r\nThe
+    name \"Colombia\" is derived from the last name of the explorer Christopher Columbus.\r\n\r\n99%
+    of the population speak Spanish, the official language of Colombia. There are
+    also many indigenous languages spoken throughout the country.\r\n\r\r\nColombia
+    shares a land border with 5 countries including Panama, Venezuela, Brazil, Ecuador
+    and Peru.\r\r\n\r\nColombia is the only country in South America that has a coastline
+    on both the Pacific Ocean and the Caribbean Sea.\r\n\r\r\nBogot\xE1 is the capital
+    of Colombia. It is the second largest capital city in South America and at 2640
+    m (8661 ft) it is one of the highest capital cities in the world.\r\n\r\r\nColombia
+    has a population of over 45 million people (45,745,783) as of July 2013.\r\n___________\nPress
+    ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -202,8 +207,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -220,7 +225,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 533
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -243,12 +248,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 13125466}
-    characterCount: 39
+    characterCount: 820
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 139
+    wordCount: 135
     linkCount: 0
-    lineCount: 4
+    lineCount: 24
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -4338,12 +4343,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Peru
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Peru\n\nPeru contains the second largest segment of the Amazon rainforest
+    after Brazil.\n\r The Peruvian Amazon covers 60% of the country.\r\n\nThe large
+    biologically diverse area of Amazon in Peru is home to the most bird species in
+    the world, the third largest number of mammals and a very high number of species
+    of butterflies and orchids.\r\n\nPeru shares borders with Ecuador, Colombia, Brazil,
+    Chile and Bolivia.\n\r\nModern day Peru has been home to many ancient civilizations,
+    the largest and wealthiest of these was the Incas who's empire ruled for over
+    100 years.\n\nJust under 30 million people live in Peru (29,849,303) as of July
+    2013.\r\n\nThe capital city of Peru is Lima \n___________\nPress ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4370,8 +4378,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4388,7 +4396,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 561
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -4411,12 +4419,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 678099474}
-    characterCount: 35
+    characterCount: 699
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 125
+    wordCount: 119
     linkCount: 0
-    lineCount: 4
+    lineCount: 21
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -4954,8 +4962,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4972,7 +4980,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 246
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -5000,7 +5008,7 @@ MonoBehaviour:
     spaceCount: 69
     wordCount: 66
     linkCount: 0
-    lineCount: 18
+    lineCount: 14
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -9933,12 +9941,14 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Brazil
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Brazil\nBrazil is the largest country in South America.\n\nIt is called
+    Brasil in Portuguese, the official language spoken in Brazil.\r\n\nBrazil is the
+    only country in South America that speaks Portuguese.\r\n\nThe capital city is
+    Brasilia, while the largest city is Sao Paulo.\n\nAround 60% of the Amazon rainforest
+    is in Brazil\r\n\nPortugal claimed the land of Brazil in the year 1500. Independence
+    was declared in 1822.\n\nHuman activities such as logging, mining fishing and
+    agriculture are important to the Brazilian economy but are also a serious threat
+    to Brazil's diverse environment.\r\n\n___________\nPress ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9965,8 +9975,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9983,7 +9993,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 481
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -10006,12 +10016,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1673563457}
-    characterCount: 37
+    characterCount: 610
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 104
+    wordCount: 97
     linkCount: 0
-    lineCount: 4
+    lineCount: 20
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -10754,8 +10764,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10800,7 +10810,7 @@ MonoBehaviour:
     spaceCount: 37
     wordCount: 35
     linkCount: 0
-    lineCount: 8
+    lineCount: 6
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -10886,12 +10896,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Chile
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Chile\nChile is the longest north-south trending country in the world at
+    over 4,600 km in length, however on average it is just 150 km wide from west to
+    east.\n\r\nThe main indigenous people of southern and central Chile are called
+    the Mapuche. Today just 5% of the population is Mapuche.\n\nThe official language
+    of Chile is Spanish.\r\n\nChile is home to some 17 million people (17,216,945)
+    as of July 2013.\r\n\nThe capital city of Chile is Santiago which has a population
+    of around 7 million people, about 36% of the total population.\r\n\nEaster Island
+    is a Polynesian island and Chilean territory. It is the world's most isolated
+    island, located 2,300 miles (3,700 km's) west of Chile. Easter Island is famous
+    for its 887 'moai', giant figures carved in volcanic stone.\n\r\nFound in the
+    north of Chile, the Atacama Desert is the driest place on Earth, with an average
+    rainfall of less than 0.05 mm a year.\r\n\n___________\nPress ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10918,8 +10934,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10936,7 +10952,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 529
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -10959,12 +10975,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1884816222}
-    characterCount: 36
+    characterCount: 926
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 168
+    wordCount: 167
     linkCount: 0
-    lineCount: 4
+    lineCount: 25
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
