@@ -3894,7 +3894,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8d39132313ec588449de694a9ff60e9e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.33
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4344,7 +4344,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "Peru\n\nPeru contains the second largest segment of the Amazon rainforest
-    after Brazil.\n\r The Peruvian Amazon covers 60% of the country.\r\n\nThe large
+    after Brazil.\n\rThe Peruvian Amazon covers 60% of the country.\r\n\nThe large
     biologically diverse area of Amazon in Peru is home to the most bird species in
     the world, the third largest number of mammals and a very high number of species
     of butterflies and orchids.\r\n\nPeru shares borders with Ecuador, Colombia, Brazil,
@@ -4396,7 +4396,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 561
+  m_firstOverflowCharacterIndex: 560
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -4419,9 +4419,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 678099474}
-    characterCount: 699
+    characterCount: 698
     spriteCount: 0
-    spaceCount: 125
+    spaceCount: 124
     wordCount: 119
     linkCount: 0
     lineCount: 21
@@ -4930,10 +4930,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Argentina has a population of over 42 million people (42,610,981) as of
-    July 2013\r\n\nThe capital city of Argentina is Buenos Aires.\r\n\nSpanish is
-    the official language of Argentina but there are many other languages spoken throughout
-    the country.\r\n\nThe official name of Argentina is the Argentine Republic.\r\n\nThe
+  m_text: "Argentina\nArgentina has a population of over 42 million people (42,610,981)
+    as of July 2013\r\n\nThe capital city of Argentina is Buenos Aires.\r\n\nSpanish
+    is the official language of Argentina but there are many other languages spoken
+    throughout the country.\r\n\nThe official name of Argentina is the Argentine Republic.\r\n\nThe
     Argentine city of Ushuaia is the southernmost city in the world.\r\n\n___________\nPress
     ESC to exit"
   m_isRightToLeft: 0
@@ -5003,12 +5003,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 778938971}
-    characterCount: 407
+    characterCount: 417
     spriteCount: 0
-    spaceCount: 69
-    wordCount: 66
+    spaceCount: 70
+    wordCount: 67
     linkCount: 0
-    lineCount: 14
+    lineCount: 15
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -6170,7 +6170,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-24834
+  m_Name: pb_Mesh-3504
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -6944,12 +6944,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Uruguay
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Uruguay \nOfficial name Oriental Republic of Uruguay\r\n\nCapital: Montevideo\r\n\nPopulation:
+    3,332,972\r\n\nOfficial Language: Spanish\r\n\nMoney: Peso\r\n\nArea: 68,037 square
+    miles (176,215 square kilometers)\r\nSouth America's second-smallest country,
+    Uruguay is bordered by Brazil and Argentina and lies along the Atlantic Ocean.\r\n\nMuch
+    of Uruguay's wildlife has disappeared as a result of competition for land with
+    humans. However, a network of national parks and a wildlife reserve have been
+    established to preserve existing populations of animals.\r\n\nVenomous spiders
+    and snakes are common in Uruguay. \n\nPumas and jaguars may occasionally be spotted
+    in remote parts of the country. More common animals include foxes, armadillos,
+    and large rodents called capybaras.\r\n\n\n___________\nPress ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6976,8 +6980,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6994,7 +6998,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 320
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -7017,12 +7021,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1231240014}
-    characterCount: 38
+    characterCount: 787
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 122
+    wordCount: 114
     linkCount: 0
-    lineCount: 4
+    lineCount: 29
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -7388,12 +7392,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Suriname
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Suriname\nThe official name of Suriname is the Republic of Suriname.\r\n\r\nIt
+    is bordered by French Guiana to the east, Guyana to the west and Brazil to the
+    south.\r\n\r\nThe official language is Dutch.\r\n\r\nAs of 1 January 2016, the
+    population of Suriname was estimated to be 545,672 people.\r\n\r\nAt just under
+    165,000 square kilometers (64,000 square miles), it is the smallest country in
+    South America (in terms of its geographical size and its population).\r\n\r\nParamaribo
+    is the capital and largest city of Suriname, located on the banks of the Suriname
+    River in the Paramaribo District. Paramaribo has a population of roughly 240,000
+    people, almost half of Suriname\u2019s population.\n___________\nPress ESC to
+    exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7420,8 +7428,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7438,7 +7446,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 452
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -7461,12 +7469,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1327119958}
-    characterCount: 39
+    characterCount: 701
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 118
+    wordCount: 117
     linkCount: 0
-    lineCount: 4
+    lineCount: 21
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -7707,12 +7715,16 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Ecuador
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Ecuador\nOfficial name: Republic of Ecuador\r\n\nCapital: Quito\n\r\nPopulation:
+    14,573,101\r\n\nArea: 109,483 square miles (283,560 square kilometers)\r\n\nOfficial
+    Language: Spanish\r\n\nEcuador is considered one of the most diverse areas of
+    the world. There are some 25,000 plant species, and over 1,600 known bird species.\n
+    \r\nThe search for oil has caused environmental devastation due to oil leaks and
+    destruction of forests.\r\n\nEcuador has nine national parks, including the Gal\xE1pagos
+    Islands. These 18 islands are home to some of the most amazing creatures, including
+    the Gal\xE1pagos tortoise, Gal\xE1pagos penguin, blue-footed booby, and iguanas.\n\nThis
+    is where Charles Darwin noticed the diversity of species and began to study evolution.\r\n\n___________\nPress
+    ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7739,8 +7751,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7757,7 +7769,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 381
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -7780,12 +7792,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1364988753}
-    characterCount: 38
+    characterCount: 757
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 120
+    wordCount: 116
     linkCount: 0
-    lineCount: 4
+    lineCount: 27
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -8289,12 +8301,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Venezuela
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Venezuela\nVenezuela is officially called the Bolivarian Republic of Venezuela.\r\n\nVenezuela
+    is on the northern coast of South America, it covers an area of 916,445 km\xB2.\n\r\nVenezuela
+    shares a land border with Colombia to the west, Guyana to the east, and Brazil
+    to the south.\nThe mountain is the triple border point of Venezuela, Brazil and
+    Guyana. It\u2019s the highest of the Pakaraima chain of tepui plateau in South
+    America. \nOff its Caribbean Coastline lies the island nations of Trinidad and
+    Tobago, Grenada, Cura\xE7ao, and Aruba.\r\n\nThere are 28.5 million people living
+    in Venezuela (28,459,085) as of July 2013.\r\nThe capital and largest city of
+    Venezuela is Caracas (officially called Santiago de Le\xF3n de Caracas), which
+    is home to nearly 2 million people.\r\n\nThe world's tallest waterfall, Angel
+    Falls, is located in Venezuela.\r\n\nVenezuela is considered one of the seventeen
+    megadiverse countries that contain most of Earth's species.\r\nVenezuela is home
+    to many weird and interesting animals including manatees, the Giant anteater,
+    Three-toed sloth, Two-toed sloth, jaguar, Amazon river dolphins, Orinoco crocodiles
+    and the world\u2019s largest rodent the capybara.\r\n\n___________\nPress ESC
+    to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8321,8 +8343,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 58
+  m_fontSizeBase: 58
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8339,7 +8361,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 682
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -8362,12 +8384,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1579000885}
-    characterCount: 40
+    characterCount: 1189
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 190
+    wordCount: 187
     linkCount: 0
-    lineCount: 4
+    lineCount: 29
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -9777,12 +9799,12 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Paraguay
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Paraguay\nCapital city Asunci\xF3n.\n\nPopulation 6,703,900.\n\nSize 406,752
+    square kilometres.\n\nCurrency Guaran\xED (PYG).\n\nOfficial language Guaran\xED
+    and Spanish.\n\nIn the middle of South America, surrounded by land on all sides,
+    sits Paraguay, a small and poor country.\n\nMost of Paraguay is covered in dry
+    flatlands, although the eastern part of the country is forested hills. \n\n___________\nPress
+    ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9809,8 +9831,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9827,7 +9849,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 333
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -9850,12 +9872,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1666381013}
-    characterCount: 39
+    characterCount: 398
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 67
+    wordCount: 62
     linkCount: 0
-    lineCount: 4
+    lineCount: 19
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -10735,9 +10757,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "Capital: Bolivia has two capitals, La Paz and Sucre. La Paz is the capital,
-    where the seat of government is and Sucre is the capital as described in the Bolivian
-    constitution. \n\n___________\nPress ESC to exit"
+  m_text: "Bolivia\nPopulation: roughly 11 million people live in Bolivia (2017)\r\n\nCapital:
+    Bolivia has two capitals, La Paz and Sucre. La Paz is the capital, where the seat
+    of government is and Sucre is the capital as described in the Bolivian constitution.
+    La Paz has a population of about 3 million people.\nSucre has about 400,000 inhabitants\r\n\nBefore
+    the Spanish started colonising the region, the area around today's Bolivia belonged
+    to the Inca Empire. The conquistadors from Spain took control of the region in
+    the 16th century.\nBolivia gained independence (from Spain) in 1825. \r\n\nThe
+    biggest cities in Bolivia are Santa Cruz, La Paz and Cochabamba. Did you know
+    that La Paz is the highest city in the world at 3,650m.\n\nBolivia is the country
+    in Latin America which has the highest inequality of its people. \nThere are some
+    very rich people while the majority of the country is extremely poor. The educational
+    standards are said to be very low especially in rural areas.\r\n\n\n___________\nPress
+    ESC to exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10782,7 +10814,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 646
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -10805,12 +10837,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1863579657}
-    characterCount: 207
+    characterCount: 999
     spriteCount: 0
-    spaceCount: 37
-    wordCount: 35
+    spaceCount: 175
+    wordCount: 169
     linkCount: 0
-    lineCount: 6
+    lineCount: 26
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -11790,12 +11822,17 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Guyana
-
-
-    ___________
-
-    Press ESC to exit'
+  m_text: "Guyana\nGuyana which means \u201Cthe land of many waters\u201D is also
+    known as the Co-operative Republic of Guyana.\n\nThe country\u2019s total land
+    area is 214,969 sq km.\nThe capital city is called Georgetown which is also the
+    largest city.\r\nThis makes Guyana the third smallest country in South America.\n\nThe
+    total population of the country is 737,718 (est. in 2016).\n\r\nThe official language
+    is English with other small regional languages also being spoken.\n\r\nThe country
+    is the only country is south American that has English as its official language.\r\n\nThe
+    country gained independence on May 29, 1966 from the United Kingdom.\n\r\nThe
+    national anthem is \u201CDear Land of Guyana, of rivers and plains\u201D and the
+    national holiday is Republic day (Feb, 23 1970).\r\n___________\nPress ESC to
+    exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11822,8 +11859,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11840,7 +11877,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 539
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -11863,12 +11900,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2093788300}
-    characterCount: 37
+    characterCount: 769
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 5
+    spaceCount: 133
+    wordCount: 129
     linkCount: 0
-    lineCount: 4
+    lineCount: 23
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
